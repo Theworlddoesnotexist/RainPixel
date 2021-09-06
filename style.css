@@ -9,6 +9,14 @@
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    width:100%;
-    height: 100%;
+    width:50%;
+    height: 50%;
+}
+#btn{
+    z-index:2;
+    border: 5px solid red;
+    color: red;
+    font-size: 16px;
+    padding: 15px;
+
 }
