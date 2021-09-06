@@ -90,9 +90,11 @@ botoon.addEventListener('click',function(){
         }
         requestAnimationFrame(anim);
     }
-    if(document.getElementById('botn').clicked == true){
-        console.log('button works');
-    }
+
     anim();
 });
+
+botoon.addEventListener('click',function(){
+    console.log('button works');
+})
 
